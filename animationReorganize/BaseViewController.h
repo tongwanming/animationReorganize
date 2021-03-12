@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseViewController.h
 //  animationReorganize
 //
 //  Created by tongwanming on 2021/3/12.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
 
-@interface ViewController : BaseViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface BaseViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

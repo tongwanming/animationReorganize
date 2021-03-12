@@ -1,16 +1,17 @@
 //
-//  ViewController.h
+//  BaseAnimationVC.h
 //  animationReorganize
 //
 //  Created by tongwanming on 2021/3/12.
 //  Copyright © 2021 侠猫科技. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "BaseViewController.h"
 
-@interface ViewController : BaseViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface BaseAnimationVC : BaseViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
