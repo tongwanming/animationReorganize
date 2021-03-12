@@ -9,10 +9,17 @@
 #import "AnimationViewController.h"
 
 @interface AnimationViewController ()
-
+@property(nonatomic,assign)BaseAniType aniType;
 @end
 
 @implementation AnimationViewController
+-(instancetype)initWithType:(BaseAniType)type {
+    self = [super init];
+    if (self){
+        self.aniType = type;
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

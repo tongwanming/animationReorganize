@@ -6,11 +6,11 @@
 //  Copyright © 2021 侠猫科技. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "AnimationViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CombinedCasesAnimationVC : BaseViewController
+@interface CombinedCasesAnimationVC : AnimationViewController
 
 @end
 

@@ -14,6 +14,9 @@
 
 @implementation BaseAnimationVC
 
+
+
+//基础动画
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

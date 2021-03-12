@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160F48CE25FB5586003FB2BB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160F48CD25FB5586003FB2BB /* BaseViewController.m */; };
+		160F48D525FB55F8003FB2BB /* BaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 160F48D425FB55F8003FB2BB /* BaseAnimationVC.m */; };
+		160F48DE25FB5B1D003FB2BB /* GroupAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 160F48DD25FB5B1D003FB2BB /* GroupAnimationVC.m */; };
+		160F48E225FB5B38003FB2BB /* TransitionAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 160F48E125FB5B38003FB2BB /* TransitionAnimationVC.m */; };
+		160F48E625FB5B50003FB2BB /* CombinedCasesAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 160F48E525FB5B50003FB2BB /* CombinedCasesAnimationVC.m */; };
+		160F48EB25FB5B68003FB2BB /* KeyFrameAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 160F48EA25FB5B68003FB2BB /* KeyFrameAnimationVC.m */; };
+		160F48EF25FB5C39003FB2BB /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160F48EE25FB5C39003FB2BB /* AnimationViewController.m */; };
 		1610497325FB5321006A27CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1610497225FB5321006A27CB /* AppDelegate.m */; };
 		1610497625FB5321006A27CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1610497525FB5321006A27CB /* ViewController.m */; };
-		1610497925FB5321006A27CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1610497725FB5321006A27CB /* Main.storyboard */; };
 		1610497B25FB5322006A27CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1610497A25FB5322006A27CB /* Assets.xcassets */; };
 		1610497E25FB5322006A27CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1610497C25FB5322006A27CB /* LaunchScreen.storyboard */; };
 		1610498125FB5322006A27CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1610498025FB5322006A27CB /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160F48CC25FB5586003FB2BB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		160F48CD25FB5586003FB2BB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		160F48D325FB55F8003FB2BB /* BaseAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAnimationVC.h; sourceTree = "<group>"; };
+		160F48D425FB55F8003FB2BB /* BaseAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationVC.m; sourceTree = "<group>"; };
+		160F48DC25FB5B1D003FB2BB /* GroupAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnimationVC.h; sourceTree = "<group>"; };
+		160F48DD25FB5B1D003FB2BB /* GroupAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationVC.m; sourceTree = "<group>"; };
+		160F48E025FB5B38003FB2BB /* TransitionAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationVC.h; sourceTree = "<group>"; };
+		160F48E125FB5B38003FB2BB /* TransitionAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationVC.m; sourceTree = "<group>"; };
+		160F48E425FB5B50003FB2BB /* CombinedCasesAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombinedCasesAnimationVC.h; sourceTree = "<group>"; };
+		160F48E525FB5B50003FB2BB /* CombinedCasesAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinedCasesAnimationVC.m; sourceTree = "<group>"; };
+		160F48E925FB5B68003FB2BB /* KeyFrameAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationVC.h; sourceTree = "<group>"; };
+		160F48EA25FB5B68003FB2BB /* KeyFrameAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationVC.m; sourceTree = "<group>"; };
+		160F48ED25FB5C39003FB2BB /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		160F48EE25FB5C39003FB2BB /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		1610496E25FB5321006A27CB /* animationReorganize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationReorganize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1610497125FB5321006A27CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1610497225FB5321006A27CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1610497425FB5321006A27CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1610497525FB5321006A27CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1610497825FB5321006A27CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1610497A25FB5322006A27CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1610497D25FB5322006A27CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1610497F25FB5322006A27CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +58,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160F48D125FB55A3003FB2BB /* AnimationVC */ = {
+			isa = PBXGroup;
+			children = (
+				160F48D325FB55F8003FB2BB /* BaseAnimationVC.h */,
+				160F48D425FB55F8003FB2BB /* BaseAnimationVC.m */,
+				160F48E925FB5B68003FB2BB /* KeyFrameAnimationVC.h */,
+				160F48EA25FB5B68003FB2BB /* KeyFrameAnimationVC.m */,
+				160F48DC25FB5B1D003FB2BB /* GroupAnimationVC.h */,
+				160F48DD25FB5B1D003FB2BB /* GroupAnimationVC.m */,
+				160F48E025FB5B38003FB2BB /* TransitionAnimationVC.h */,
+				160F48E125FB5B38003FB2BB /* TransitionAnimationVC.m */,
+				160F48E425FB5B50003FB2BB /* CombinedCasesAnimationVC.h */,
+				160F48E525FB5B50003FB2BB /* CombinedCasesAnimationVC.m */,
+				160F48ED25FB5C39003FB2BB /* AnimationViewController.h */,
+				160F48EE25FB5C39003FB2BB /* AnimationViewController.m */,
+			);
+			path = AnimationVC;
+			sourceTree = "<group>";
+		};
 		1610496525FB5321006A27CB = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +96,13 @@
 		1610497025FB5321006A27CB /* animationReorganize */ = {
 			isa = PBXGroup;
 			children = (
+				160F48D125FB55A3003FB2BB /* AnimationVC */,
 				1610497125FB5321006A27CB /* AppDelegate.h */,
 				1610497225FB5321006A27CB /* AppDelegate.m */,
+				160F48CC25FB5586003FB2BB /* BaseViewController.h */,
+				160F48CD25FB5586003FB2BB /* BaseViewController.m */,
 				1610497425FB5321006A27CB /* ViewController.h */,
 				1610497525FB5321006A27CB /* ViewController.m */,
-				1610497725FB5321006A27CB /* Main.storyboard */,
 				1610497A25FB5322006A27CB /* Assets.xcassets */,
 				1610497C25FB5322006A27CB /* LaunchScreen.storyboard */,
 				1610497F25FB5322006A27CB /* Info.plist */,
@@ -130,7 +170,6 @@
 			files = (
 				1610497E25FB5322006A27CB /* LaunchScreen.storyboard in Resources */,
 				1610497B25FB5322006A27CB /* Assets.xcassets in Resources */,
-				1610497925FB5321006A27CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,22 +181,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1610497625FB5321006A27CB /* ViewController.m in Sources */,
+				160F48DE25FB5B1D003FB2BB /* GroupAnimationVC.m in Sources */,
+				160F48D525FB55F8003FB2BB /* BaseAnimationVC.m in Sources */,
+				160F48CE25FB5586003FB2BB /* BaseViewController.m in Sources */,
 				1610498125FB5322006A27CB /* main.m in Sources */,
+				160F48E625FB5B50003FB2BB /* CombinedCasesAnimationVC.m in Sources */,
+				160F48E225FB5B38003FB2BB /* TransitionAnimationVC.m in Sources */,
+				160F48EF25FB5C39003FB2BB /* AnimationViewController.m in Sources */,
 				1610497325FB5321006A27CB /* AppDelegate.m in Sources */,
+				160F48EB25FB5B68003FB2BB /* KeyFrameAnimationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1610497725FB5321006A27CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1610497825FB5321006A27CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1610497C25FB5322006A27CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
