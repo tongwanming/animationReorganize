@@ -26,7 +26,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationController.title = @"iOS动画浅谈";
+    self.navigationItem.title = @"iOS动画浅谈";
     
     [self createUI];
     [self dealData];

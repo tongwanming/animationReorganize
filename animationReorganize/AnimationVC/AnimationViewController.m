@@ -9,7 +9,7 @@
 #import "AnimationViewController.h"
 
 @interface AnimationViewController ()
-@property(nonatomic,assign)BaseAniType aniType;
+
 @end
 
 @implementation AnimationViewController
@@ -23,17 +23,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createUI];
     // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)createUI {
+    self.demoView = [[UIView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-88)/2, SCREEN_HEIGHT/2-88,88 ,88)];
+    self.demoView.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:self.demoView];
+    
+    UIButton *startBtn = [[UIButton alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-60)/2, SCREEN_HEIGHT-80, 80, 30)];
+    [startBtn setTitle:@"START" forState:UIControlStateNormal];
+    [startBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    startBtn.layer.cornerRadius = 5;
+    startBtn.layer.borderWidth = 1;
+    startBtn.layer.borderColor = UIColor.orangeColor.CGColor;
+    [startBtn addTarget:self action:@selector(btnClickActive:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:startBtn];
+    
 }
-*/
+
+-(void)btnClickActive:(UIButton *)btn {
+    
+}
 
 @end

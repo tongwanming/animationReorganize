@@ -61,6 +61,8 @@
 		160F48D125FB55A3003FB2BB /* AnimationVC */ = {
 			isa = PBXGroup;
 			children = (
+				160F48ED25FB5C39003FB2BB /* AnimationViewController.h */,
+				160F48EE25FB5C39003FB2BB /* AnimationViewController.m */,
 				160F48D325FB55F8003FB2BB /* BaseAnimationVC.h */,
 				160F48D425FB55F8003FB2BB /* BaseAnimationVC.m */,
 				160F48E925FB5B68003FB2BB /* KeyFrameAnimationVC.h */,
@@ -71,8 +73,6 @@
 				160F48E125FB5B38003FB2BB /* TransitionAnimationVC.m */,
 				160F48E425FB5B50003FB2BB /* CombinedCasesAnimationVC.h */,
 				160F48E525FB5B50003FB2BB /* CombinedCasesAnimationVC.m */,
-				160F48ED25FB5C39003FB2BB /* AnimationViewController.h */,
-				160F48EE25FB5C39003FB2BB /* AnimationViewController.m */,
 			);
 			path = AnimationVC;
 			sourceTree = "<group>";

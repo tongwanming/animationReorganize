@@ -45,8 +45,13 @@ typedef NS_ENUM(NSInteger, TransitionAniType){
 };
 
 @interface AnimationViewController : BaseViewController
+
+@property (nonatomic, strong) UIView *demoView;
+@property(nonatomic,assign)BaseAniType aniType;
+
 -(instancetype)initWithType:(BaseAniType)type;
 
+-(void)btnClickActive:(UIButton *)btn;
 @end
 
 NS_ASSUME_NONNULL_END
