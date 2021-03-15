@@ -92,7 +92,7 @@
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
     animation.fromValue = [NSValue valueWithCGPoint:CGPointMake(44, 84)];
 //    animation.toValue = [NSValue valueWithCGPoint:CGPointMake(144, SCREEN_HEIGHT-75)];
-    animation.byValue = [NSValue valueWithCGPoint:CGPointMake(100, 0)];
+    animation.byValue = [NSValue valueWithCGPoint:CGPointMake((SCREEN_WIDTH-88)/2, SCREEN_HEIGHT/2-88)];
     animation.duration = 5.0f;
     [self.demoView.layer addAnimation:animation forKey:@"positionAnimation"];
 }

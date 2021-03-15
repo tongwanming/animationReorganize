@@ -53,7 +53,7 @@
     NSDictionary *keyFrameAniDic = @{@"title": @"关键帧动画", @"value": keyFrameAniData};
     
     //组动画
-    NSArray *groupAniData = @[@"位移",@"透明度",@"缩放",@"旋转",@"背景色"];
+    NSArray *groupAniData = @[@"同时执行几组动画",@"连续"];
     NSDictionary *groupAniDic = @{@"title": @"组动画", @"value": groupAniData};
     
     //过渡动画
