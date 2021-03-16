@@ -10,7 +10,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, CombinationAniType){
+    aPath = 0,
+    dingding,
+    dianzan,
+    bezier,
+};
+
 @interface CombinedCasesAnimationVC : AnimationViewController
+
+-(instancetype)initWithType:(CombinationAniType)type;
 
 @end
 

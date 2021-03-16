@@ -61,7 +61,7 @@
     NSDictionary *transitionAniDic = @{@"title": @"过渡动画", @"value": transitionAniData};
     
     //组合案例
-    NSArray *combinedCasesAniData = @[@"位移",@"透明度",@"缩放",@"旋转",@"背景色"];
+    NSArray *combinedCasesAniData = @[@"path",@"钉钉",@"点赞",@"贝塞尔曲线",@"进度"];
     NSDictionary *combinedCasesAniDic = @{@"title": @"组合案例", @"value": combinedCasesAniData};
     
     _dataArray = @[baseAniDic, keyFrameAniDic, groupAniDic, transitionAniDic, combinedCasesAniDic];
@@ -107,18 +107,23 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0){
         BaseAnimationVC *vc = [[BaseAnimationVC alloc] initWithType:indexPath.row];
+        vc.title = _dataArray[indexPath.section][@"value"][indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 1){
         KeyFrameAnimationVC *vc = [[KeyFrameAnimationVC alloc] initWithType:indexPath.row];
+        vc.title = _dataArray[indexPath.section][@"value"][indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 2){
         GroupAnimationVC *vc = [[GroupAnimationVC alloc] initWithType:indexPath.row];
+        vc.title = _dataArray[indexPath.section][@"value"][indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 3){
         TransitionAnimationVC *vc = [[TransitionAnimationVC alloc] initWithType:indexPath.row];
+        vc.title = _dataArray[indexPath.section][@"value"][indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 4){
         CombinedCasesAnimationVC *vc = [[CombinedCasesAnimationVC alloc] initWithType:indexPath.row];
+        vc.title = _dataArray[indexPath.section][@"value"][indexPath.row];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
