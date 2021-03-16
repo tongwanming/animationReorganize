@@ -48,7 +48,7 @@ typedef NS_ENUM(NSInteger, TransitionAniType){
 
 @property (nonatomic, strong) UIView *demoView;
 @property(nonatomic,assign)BaseAniType aniType;
-
+@property (nonatomic, strong)UIButton *startBtn;
 -(instancetype)initWithType:(BaseAniType)type;
 
 -(void)btnClickActive:(UIButton *)btn;

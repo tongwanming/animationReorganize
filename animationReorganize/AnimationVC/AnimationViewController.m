@@ -32,14 +32,14 @@
     self.demoView.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:self.demoView];
     
-    UIButton *startBtn = [[UIButton alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-60)/2, SCREEN_HEIGHT-80, 80, 30)];
-    [startBtn setTitle:@"START" forState:UIControlStateNormal];
-    [startBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
-    startBtn.layer.cornerRadius = 5;
-    startBtn.layer.borderWidth = 1;
-    startBtn.layer.borderColor = UIColor.orangeColor.CGColor;
-    [startBtn addTarget:self action:@selector(btnClickActive:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:startBtn];
+    self.startBtn = [[UIButton alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-60)/2, SCREEN_HEIGHT-80, 80, 30)];
+    [self.startBtn setTitle:@"START" forState:UIControlStateNormal];
+    [self.startBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    self.startBtn.layer.cornerRadius = 5;
+    self.startBtn.layer.borderWidth = 1;
+    self.startBtn.layer.borderColor = UIColor.orangeColor.CGColor;
+    [self.startBtn addTarget:self action:@selector(btnClickActive:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.startBtn];
     
 }
 

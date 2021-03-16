@@ -57,7 +57,7 @@
     NSDictionary *groupAniDic = @{@"title": @"组动画", @"value": groupAniData};
     
     //过渡动画
-    NSArray *transitionAniData = @[@"位移",@"透明度",@"缩放",@"旋转",@"背景色"];
+    NSArray *transitionAniData = @[@"详情演示"];
     NSDictionary *transitionAniDic = @{@"title": @"过渡动画", @"value": transitionAniData};
     
     //组合案例
